@@ -15,8 +15,6 @@ header {
     color: white;
     font-size: 1.2rem;
     font-family: var(--font1);
-
-    
 }
 
 header span {
@@ -116,6 +114,7 @@ footer {
     background-color: #2b4c7e;
     padding: 10px;
     font-family: var(--font1);
+    margin-top: 10px;
 }
 
 footer p {

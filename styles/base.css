@@ -75,12 +75,17 @@ main {
 
 ul {
     text-align: left;
-    margin-top: 100px;
+    margin-top: 85px;
+    
+}
+
+ul li{
+    margin-bottom: 10px;
 }
 
 .profile-pic {
     float: right;
-    height: 150px;
+    height: auto;
     width: 120px;
     padding: 0px 30px 0 5px;
 }

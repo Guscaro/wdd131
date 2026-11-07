@@ -9,14 +9,14 @@ header {
     justify-content: space-between;
     font-size: 1rem;
     background-color: #2b4c7e;
-    padding: 20px;
+    padding: 10px;
     color: white;
     flex-wrap: wrap;
     font-family: var(--font2);
-
-
-
-
+    
+    
+    
+    
 
 }
 
@@ -29,23 +29,23 @@ nav {
 #menu {
     background: none;
     border: none;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     position: absolute;
     top: 20px;
     right: 25px;
     cursor: pointer;
-
-
-
-
-
-
+    
+    
+    
+    
+    
+   
 }
 
 #menu.open {
     margin-top: 10px;
-
+    
 }
 
 #menu::before {
@@ -63,9 +63,9 @@ nav.open {
     grid-template-columns: 1fr;
     gap: 20px;
     padding-left: 250px;
-
-
-
+    
+    
+    
 }
 
 
@@ -73,7 +73,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 nav a:hover {
@@ -98,19 +98,19 @@ main {
     justify-items: center;
     gap: 10px;
     font-family: var(--font1);
-
+    
 }
 
 img:hover {
-    box-shadow: 0 0 50px #333;
-
+	box-shadow: 0 0 50px #333;
+    
 }
 
 img {
     max-width: 500px;
     height: auto;
-
-
+    
+    
 }
 
 figcaption {

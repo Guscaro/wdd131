@@ -1,0 +1,137 @@
+:root {
+    --font1: "Asap Sharp", sans-serif;
+    --font2: "Roboto", sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    background-color: #2b4c7e;
+    padding: 20px;
+    color: white;
+    flex-wrap: wrap;
+    font-family: var(--font2);
+
+
+
+
+
+}
+
+
+
+nav {
+    display: none;
+}
+
+#menu {
+    background: none;
+    border: none;
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+#menu.open {
+    margin-top: 10px;
+
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+
+
+}
+
+nav.open {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-left: 250px;
+
+
+
+}
+
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+h1 {
+    text-align: center;
+    align-self: center;
+}
+
+h1.open {
+    display: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-items: center;
+    gap: 10px;
+    font-family: var(--font1);
+
+}
+
+img:hover {
+    box-shadow: 0 0 50px #333;
+
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+
+
+}
+
+figcaption {
+    text-align: center;
+    color: #2b4c7e;
+}
+
+footer {
+    background-color: #2b4c7e;
+    padding: 10px;
+    font-family: var(--font2);
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    margin: 1px 0;
+
+}
+
+#lastModified {
+    color: yellow;
+}

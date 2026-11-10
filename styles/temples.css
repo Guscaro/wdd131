@@ -99,7 +99,7 @@ h1.open {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 0 2rem;
     justify-items: center;

@@ -1,5 +1,7 @@
 @media (min-width: 600px) {
 
+    
+
     #menu {
         display: none;
     }
@@ -52,6 +54,7 @@
         width: 100%;
         max-width: 400px;
         height: auto;
+        border: 0px 300px;
     }
 
 

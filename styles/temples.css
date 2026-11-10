@@ -99,7 +99,7 @@ h1.open {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 0 2rem;
     justify-items: center;
@@ -118,8 +118,10 @@ img:hover {
 }
 
 img {
-    max-width: 500px;
-    height:   auto;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    
     
     
 }

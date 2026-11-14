@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Country Page - Gustavo Camargo</title>
+    <meta name="description" content="WDD 131 country page featuring geography and weather for Utah">
+    <meta name="author" content="Gustavo Camargo ">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Utah</h1>
+    </header>
+    <main>
+        <div class="hero-container">
+            <picture>
+                <source media="(min-width: 780px)" srcset="images/utah-desktop.webp">
+                <img src="images/utah-mobile.webp" alt="Scenic view of Utah" width="500" height="750">
+            </picture>
+
+            <section class="card data">
+                <h2>Data</h2>
+                <ul>
+                    <li><span class="label">Area:</span> 219,887 sq km</li>
+                    <li><span class="label">Population:</span> 3,538,904</li>
+                    <li><span class="label">Capital:</span> Salt Lake City</li>
+                    <li><span class="label">Languages:</span> English</li>
+                    <li><span class="label">Currency:</span> United States Dollar</li>
+                    <li><span class="label">Time Zone:</span> UTC-7</li>
+                    <li><span class="label">Callin Code:</span> +1</li>
+                    <li><span class="label">Internet TLD:</span> .us</li>
+                </ul>
+            </section>
+
+            <section class="card weather">
+                <h2 class="weather-heading">Weather</h2>
+                <img src="images/weather-hail.svg" alt="weather icon" class="weather-svg" width="80" height="80">
+                <ul>
+                    <li><span class="label">Temperature:</span> 45 °F </li>
+                    <li><span class="label">Conditions:</span> Partly Cloudy</li>
+                    <li><span class="label">Wind:</span> 10 mph</li>
+                    <li><span class="label">Wind Chill:</span> <span id="windChill"></span></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+     <footer>
+        <p>©<span id="currentyear"></span> 🎶 Gustavo Camargo 🎶 Bolivia</p>
+        <p id="lastModified"></p>
+    </footer>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,78 @@
+:root {
+    --font1: "Asap Sharp", sans-serif;
+    --font2: "Roboto", sans-serif;
+    --background-color: darkred;
+    --primary-color: white;
+    --secondary-color: rgba(0, 0, 128, 0.80);
+    --thrid-color: yellow;
+    --fourth-color: rgba(255, 255, 255, 0.50);
+}
+@media (min-width: 780px) {
+
+    .weather-svg {
+        display: none;
+    }
+
+    .weather-heading::after {
+        content: " 🌦️";
+        margin-left: 0.5rem;
+        
+    }
+
+    .hero-container {
+        position: relative;
+    }
+
+
+    .card {
+        position: absolute;
+        background-color:var(--fourth-color);
+        width: 300px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .card.data {
+        top: 3rem;
+        left: 2rem;
+        padding-top: 80px;
+    
+    }
+
+    .card.weather {
+        bottom: 2rem;
+        right: 2rem;
+        padding-top: 70px;
+
+    }
+
+    .card h2 {
+        position: absolute;
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+        width: 160px;
+        text-align: left;
+    }
+
+    /*i can add this together*/ 
+    .card.data h2, .card.weather h2  {
+        top: 0px;
+        right: 150px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+
+    picture img {
+        border-bottom: none;
+    }
+
+    footer {
+        margin-top: 0;
+    
+    }
+
+
+}
+
+
+

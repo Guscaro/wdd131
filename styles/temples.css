@@ -69,7 +69,7 @@ nav.open {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding-left: 15px 0;
+    padding-left: 15px;
     width: 100%;
     justify-content: center;
     

@@ -1,11 +1,16 @@
 :root {
-    --font1: "Asap Sharp", sans-serif;
-    --font2: "Roboto", sans-serif;
-    --background-color: darkred;
-    --primary-color: white;
-    --secondary-color: navy;
-    --fourth-color: lightgray;
+  --font1: "Asap Sharp", sans-serif;
+  --font2: "Roboto", sans-serif;
+  --background-color: darkred;
+  --primary-color: white;
+  --secondary-color: navy;
+  --secondary-color-transparent: rgba(0, 0, 128, 0.90);
+  --third-color: yellow;
+  --fourth-color: lightgray;
+  --fourth-color-transparent: rgba(255, 255, 255, 0.50);
 }
+
+
 
 * {
     box-sizing: border-box;
@@ -23,7 +28,7 @@ h1 {
     color: var(--primary-color);
     text-align: center;
     padding: 25px 0;
-    
+
 }
 
 main {
@@ -53,12 +58,12 @@ ul li {
 
 .card.weather img {
     margin-bottom: 20px;
-    
+
 }
 
 .card ul {
     list-style: none;
-    
+
 }
 
 .card li {
@@ -91,9 +96,3 @@ footer p {
 #lastModified {
     color: var(--primary-color);
 }
-
-
-
-
-
-

@@ -6,12 +6,12 @@ document.getElementById("lastModified").textContent = `Last Modification: ${docu
 
 const hamButton = document.querySelector("#menu");
 const nav = document.querySelector("nav");
-const title = document.querySelector("header h1")
+const title = document.querySelector("header h1");
 
 hamButton.addEventListener("click", () => {
     nav.classList.toggle("open");
     hamButton.classList.toggle("open");
-    title.classList.toggle("open")
+    title.classList.toggle("open");
 });
 
 

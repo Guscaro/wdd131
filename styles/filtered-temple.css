@@ -1,0 +1,167 @@
+:root {
+    --font1: "Asap Sharp", sans-serif;
+    --font2: "Roboto", sans-serif;
+
+}
+
+* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    background-color: #2b4c7e;
+    padding: 10px;
+    color: white;
+    flex-wrap: wrap;
+    font-family: var(--font2);
+
+
+
+
+
+}
+
+
+
+nav {
+    display: none;
+}
+
+
+#menu {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 7px;
+    right: 25px;
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+#menu.open {
+    margin-top: 10px;
+
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+
+
+}
+
+nav.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-left: 15px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+h1 {
+    text-align: center;
+    align-self: center;
+}
+
+h1.open {
+    display: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    justify-items: center;
+    gap: 10px;
+    font-family: var(--font1);
+
+}
+
+h2 {
+    padding: 10px 0;
+}
+
+img:hover {
+    box-shadow: 0 0 50px #333;
+
+}
+
+.res-grid section {
+    border: solid 2px lightgrey;
+    background-color: lightgray;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.res-grid h3 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+
+
+
+.label {
+    color: darkblue;
+}
+
+.res-grid img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    margin: 30px;
+
+
+
+}
+
+footer {
+    background-color: #2b4c7e;
+    padding: 10px;
+    font-family: var(--font2);
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    margin: 1px 0;
+
+}
+
+#lastModified {
+    color: yellow;
+}
